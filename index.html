@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+
+<html>
+    <head></head>
+    <style>
+        header {
+            font-size: 30px;
+            font-weight: bold;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #06052d;
+            margin: 30px;
+            text-align: center;
+        }
+
+        body {
+            padding: 0 10%;
+        }
+
+        .head {
+            background-color: antiquewhite;
+            display: flex;
+        }
+
+        .personal_info {
+            margin-left: 30px;
+            font-size: 20px;
+        }
+
+        .photo {
+            height: 299px;
+            width: auto;
+        }
+
+        .name {
+            font-size: 25px;
+            font-weight: bold;            
+        }
+
+        .block {
+            display: flex;
+            margin: 30px 0;            
+        }
+
+        .date {
+            width: 200px; 
+            background-color: bisque;
+            padding: 10px;
+        }
+        .info {
+            background-color: burlywood;
+            padding: 0 25px;
+            width: 100%;            
+        }
+
+        .skills {
+            display: flex;
+            justify-content: space-between;
+        }
+        .skill_branch {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .skill {
+            background-color: rgb(8, 50, 36);
+            padding: 10px;
+            margin: 15px;
+            width: 100px;
+            height: 50px;
+            text-align: center;
+            color: antiquewhite;
+            border-radius: 10px;
+            font-weight: bold;                       
+
+        }
+
+        .skill:nth-child(even) {
+            background-color:rgb(16, 24, 113);
+            
+        }
+
+    </style>
+    <body>
+    <header>Резюме</header>   
+    <body>
+        <div class="head">
+            <div class="photo"><img src="photo.jpg" alt="Фото"></div>
+            <div class="personal_info">            
+                <p class="name">Южаков Евгений Сергеевич</p>
+                <p class="birth">28 февраля 1994 г. - 26 лет</p>
+                <p class="city">г. Челябинск</p>
+            </div>
+        </div>
+        <div class="main">
+            <h2>Опыт работы</h2>
+            <div class="block">
+                <div class="date">
+                    <p>Август 2018 — настоящее время</br></br>2 года 3 месяца</p>
+                </div>
+                <div class="info">
+                    <h2>Fuse8</h2>
+                    <h3>Специалист по интернет-маркетингу</h3>
+                    <p class="desc">Ведение рекламных кампаний для европейских заказчиков (недвижимость и образование в UK): 
+                        <ul>
+                            <li>Google Search & Display</li>
+                            <li>Microsoft Advertising</li>
+                            <li>Facebook</li>
+                        </ul>
+                        <strong>Обязанности:</strong>
+                        <ul>
+                            <li>Управление кампаниями</li>
+                            <li>Составление отчетности</li>
+                            <li>Автоматизация рабочих процессов</li>
+                            <li>Общение с клиентами</li>
+                        </ul></p>
+                </div>        
+            </div>
+            <div class="block">
+                <div class="date">
+                    <p>Август 2016 — Август 2018 </br></br>2 года 1 месяц</p>
+                </div>
+                <div class="info">
+                    <h2>Redsolution</h2>
+                    <h3>SEO-специалист</h3>
+                    <p class="desc">
+                        <ul>
+                        <li>Ведение нескольких проектов</li>
+                        <li>Составление плана продвижения, контентного плана</li>
+                        <li>Подбор ключевых слов</li>
+                        <li>Внутренняя и внешняя оптимизация</li>
+                        <li>Постановка задач копирайтерам, дизайнерам, программистам</li>
+                        <li>Анализ статистики</li>
+                        <li>Анализ юзабилити сайтов</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="block">
+                <div class="date"><p>Май 2014 — Сентябрь 2014</p></div>
+                <div class="info">
+                    <h2>The Spinning Wheel Restaurant, Syracuse, NY, USA</h2>
+                    <h3>Помощник менеджера банкетного зала</h3>
+                    <p class="desc">Помощь в приготовлении пищи, организации банкетного зала, консультация посетителей</p>
+                </div>
+            </div>
+          
+            <h2>Образование</h2>
+            <div class="edu">
+                <div class="block">
+                    <div class="date">2017</div>
+                    <div class="info">
+                        <h3>Южно-Уральский государственный университет (Национальный исследовательский университет), Челябинск</h3>
+                        <p class="desc">Высшая школа экономики и управления, Кафедра управления инновациями в бизнесе, Управление инновациями - Магистратура</p>                    
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="date">2016</div>
+                    <div class="info">
+                        <h3>Южно-Уральский государственный университет (Национальный исследовательский университет), Челябинск</h3>
+                        <p class="desc">Факультет военного обучения, Применение подразделений со средствами радиорелейной и тропосферной связи - Дополнительное образование</p>                    
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="date">2015</div>
+                    <div class="info">
+                        <h3>Южно-Уральский государственный университет (Национальный исследовательский университет), Челябинск</h3>
+                        <p class="desc">Международный факультет, Инноватика - Бакалавриат</p>                    
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="date">2015</div>
+                    <div class="info">
+                        <h3>Южно-Уральский государственный университет (Национальный исследовательский университет), Челябинск</h3>
+                        <p class="desc">Международный факультет, Переводчик в сфере профессиональной коммуникации - Дополнительное образование</p>                    
+                    </div>
+                </div>                
+            </div>
+
+            <h2>Навыки</h2>
+            <div class="skills">
+                
+
+                <div class="skill_branch">
+                    <h3 align="center">Общие</h3>
+                    <div class="skill">Английский - C1</div>
+                    <div class="skill">Водительское удостоверение В</div>
+                    <div class="skill">ХЗ</div>
+                </div>
+                <div class="skill_branch">
+                    <h3 align="center">Маркетинг</h3>
+                    <div class="skill">SEO</div>
+                    <div class="skill">PPC</div>
+                    <div class="skill">Social</div>
+                    <div class="skill">Google Analytics</div>
+                    <div class="skill">Google Tag Manager</div>
+                </div>
+                <div class="skill_branch">
+                    <h3 align="center">Разработка</h3>
+                    <div class="skill">Python</div>
+                    <div class="skill">Django/Flask</div>
+                    <div class="skill">JavaScript</div>
+                    <div class="skill">SQL</div>
+                </div>    
+            </div>
+        </div>
+    
+    </body>
+    </body>
+</html>
